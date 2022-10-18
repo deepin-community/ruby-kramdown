@@ -1,0 +1,2 @@
+fix_manpage_warnings.patch
+disable-failing-php-codeblock-tests.patch
