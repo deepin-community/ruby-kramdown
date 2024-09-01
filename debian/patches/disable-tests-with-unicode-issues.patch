@@ -1,0 +1,17 @@
+Describe: disable latex conversion to testcase causing unicode issue
+  ! LaTeX Error: Unicode character ụ (U+1EE5)
+                 not set up for use with LaTeX.
+Bug: https://github.com/gettalong/kramdown/issues/770
+Author: Cédric Boutillier <boutil@debian.org>
+Last-Update: 2022-10-12
+
+--- a/test/test_files.rb
++++ b/test/test_files.rb
+@@ -138,6 +138,7 @@
+       'test/testcases/block/06_codeblock/with_lang_in_fenced_block_any_char.text',
+       'test/testcases/block/03_paragraph/standalone_image.text', # bc of standalone image
+       'test/testcases/cjk-line-break.text', # latex unicode support
++      'test/testcases/block/04_header/with_auto_ids.text', # latex unicode support
+     ].compact
+     Dir[File.dirname(__FILE__) + '/testcases/**/*.text'].each do |text_file|
+       next if EXCLUDE_LATEX_FILES.any? {|f| text_file =~ /#{f}$/ }
