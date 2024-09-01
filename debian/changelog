@@ -1,8 +1,12 @@
-ruby-kramdown (2.4.0-1) UNRELEASED; urgency=medium
+ruby-kramdown (2.4.0-2) unstable; urgency=medium
 
-  * update
+  * Add myself to Uploaders
+  * Refresh fix_manpage_warnings.patch
+  * Add disable-tests-with-unicode-issues.patch to prevent latex conversion to
+    example causing latex error about unicode character not set up with latex
+  * Bump Standards-Version to 4.6.1 (no changes needed)
 
- -- Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>  Thu, 16 Jun 2022 14:18:11 +0800
+ -- Cédric Boutillier <boutil@debian.org>  Wed, 12 Oct 2022 14:12:40 +0200
 
 ruby-kramdown (2.4.0-1) unstable; urgency=medium
 

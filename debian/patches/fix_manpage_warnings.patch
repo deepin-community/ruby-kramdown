@@ -14,7 +14,7 @@ Forwarded: no
  .RE
  .TP
  \fB\-\-[no\-]footnote\-backlink\-inline\fP
-@@ -323,24 +323,24 @@
+@@ -332,24 +332,24 @@
  .IP \(bu 4
  laquo_space: left guillemet followed by a space
  .IP \(bu 4

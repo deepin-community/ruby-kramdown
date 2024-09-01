@@ -3,7 +3,8 @@ Section: ruby
 Priority: optional
 Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
 Uploaders: Youhei SASAKI <uwabami@gfd-dennou.org>,
-           Paul van Tilburg <paulvt@debian.org>
+           Paul van Tilburg <paulvt@debian.org>,
+           Cédric Boutillier <boutil@debian.org>
 Build-Depends: debhelper-compat (= 13),
                gem2deb (>= 1),
                rake,
@@ -14,7 +15,7 @@ Build-Depends: debhelper-compat (= 13),
                texlive-fonts-recommended,
                texlive-latex-extra,
                tidy
-Standards-Version: 4.6.0
+Standards-Version: 4.6.1
 Vcs-Git: https://salsa.debian.org/ruby-team/ruby-kramdown.git
 Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-kramdown
 Homepage: https://kramdown.gettalong.org
